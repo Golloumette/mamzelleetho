@@ -34,6 +34,8 @@ class ClientDAO{
         $cmd->bindValue(10, $client->getDateInscription());
         $cmd->execute();
         $affected = $cmd->rowCount();
+
+        
            
         } catch (PDOException $e) {
             $affected = -1;
@@ -194,4 +196,3 @@ class ClientDAO{
     
     
 }
-?>

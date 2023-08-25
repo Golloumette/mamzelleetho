@@ -6,9 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="../css/ComponentStyle.css">
     <title>Mam'Zelle Etho</title>
-
 </head>
 
 <body>
@@ -25,19 +24,19 @@
     <section>
         <br>
         <div class="container">
-            <form method="post" id="formInsertClient">
+            <form method="post" id="formInsertClient" action="../controllers/InscriptionAddCTRL2.php">
                 <fieldset>
                     <legend>Inscription</legend>
                     <br>
                     <div class="row">
                         <div class="col-2">
-                            <label for="nom"> Nom :</label>
+                            <label for="user_nom"> Nom :</label>
                         </div>
                         <div class="col-3">
                             <input type="text" id="user_nom" name="user_nom" value="" required autofocus>
                         </div>
                         <div class="col-2">
-                            <label for=""> Pseudo :</label>
+                            <label for="user_pseudo"> Pseudo :</label>
                         </div>
                         <div class="col-3">
                             <input type="text" id="user_pseudo" name="user_pseudo" value="<?php if (isset($client)) {
@@ -48,7 +47,7 @@
                     <br>
                     <div class="row">
                         <div class="col-2">
-                            <label for="prenom"> Prénom :</label>
+                            <label for="user_prenom"> Prénom :</label>
                         </div>
                         <div class="col-3">
                             <input type="text" id="user_prenom" name="user_prenom" value="<?php if (isset($client)) {
@@ -56,7 +55,7 @@
                                                                                             } ?>">
                         </div>
                         <div class="col-2">
-                            <label for=""> Téléphone :</label>
+                            <label for="user_tel"> Téléphone :</label>
                         </div>
                         <div class="col-3">
                             <input type="text" id="user_tel" name="user_tel" value="<?php if (isset($client)) {
@@ -67,7 +66,7 @@
                     <br>
                     <div class="row">
                         <div class="col-2">
-                            <label for="dateNaissance"> Date de naissance :</label>
+                            <label for="user_anniv"> Date de naissance :</label>
                         </div>
                         <div class="col-10">
                             <input type="date" id="user_anniv" name="user_anniv" value="<?php if (isset($client)) {
@@ -78,7 +77,7 @@
                     <br>
                     <div class="row">
                         <div class="col-2">
-                            <label for="mail">E-mail :</label>
+                            <label for="user_mail">E-mail :</label>
                         </div>
                         <div class="col-3">
                             <input type="email" id="user_mail" name="user_mail" value="<?php if (isset($client)) {
@@ -86,7 +85,7 @@
                                                                                         } ?>">
                         </div>
                         <div class="col-2">
-                            <label for="verifmail">Retapez l'e-mail :</label>
+                            <label for="verif_mail">Retapez l'e-mail :</label>
                         </div>
                         <div class="col-3">
                             <input type="email" id="verif_mail" name="verif_mail" value="<?php if (isset($verifMail)) {
@@ -97,7 +96,7 @@
                     <br>
                     <div class="row">
                         <div class="col-2">
-                            <label for="password">Mot de passe :</label>
+                            <label for="user_mdp">Mot de passe :</label>
                         </div>
                         <div class="col-3">
                             <input type="password" id="user_mdp" name="user_mdp" value="<?php if (isset($client)) {
@@ -116,7 +115,7 @@
                     <br>
                     <div class="row">
                         <div class="col-2">
-                            <label for="adresse">Adresse :</label>
+                            <label for="user_adresse">Adresse :</label>
                         </div>
                         <div class="col-10">
                             <input type="text" id="user_adress" name="user_adresse" size="100" value="<?php if (isset($client)) {
@@ -133,13 +132,13 @@
                             <input type="text" id="user_cp" name="user_cp" size="10" value="<?php if (isset($cp)) {
                                                                                                 echo $cp;
                                                                                             } ?>" required>
-                            <a href="#" id="refVille">Valider la ville</a>
+                            <a class=linkButton id="refVille">Valider la ville</a>
                         </div>
                     </div>
                     <br>
                     <div class="row">
                         <div class="col-2">
-                            <label for="ville">Ville :</label>
+                            <label for="id_ville">Ville :</label>
                         </div>
                         <div class="col-10">
                             <select name="id_ville" id="id_ville">
@@ -154,14 +153,7 @@
             </form>
             <br>
 
-            <div class="row">
-                <div class="col-2">
-                    <label for="adresse">Ajouter une photo de vous ou votre cheval :</label>
-                </div>
-                <div class="col-10">
-                    <input type="file" id="user_photo" name="user_photo" accept="image/jpeg, image/png" size="1000">
-                </div>
-            </div>
+
             <br>
             <br>
             <div>

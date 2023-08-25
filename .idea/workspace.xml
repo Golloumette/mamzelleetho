@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="750dfcbc-30f9-4d99-a894-cf91754d2a09" name="Changes" comment="" />
+    <list default="true" id="750dfcbc-30f9-4d99-a894-cf91754d2a09" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/InscriptionAddCTRL2.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/InscriptionAddCTRL2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daos/ClientDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/daos/ClientDAO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Inscription.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Inscription.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/InscriptionView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/InscriptionView.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +18,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe" />
   <component name="ProjectId" id="2SKWaMAV8jeL9kwXn19lDQszM2Z" />
@@ -45,6 +54,8 @@
       <workItem from="1691141121559" duration="6463000" />
       <workItem from="1691404313646" duration="18000" />
       <workItem from="1692888719759" duration="446000" />
+      <workItem from="1692959602079" duration="602000" />
+      <workItem from="1692971079260" duration="18000" />
     </task>
     <servers />
   </component>

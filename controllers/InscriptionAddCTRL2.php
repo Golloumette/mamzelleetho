@@ -15,8 +15,8 @@ require_once '../daos/Connexion.php';
 //  on se connecte à la BD
 $cnx = new Connexion();
 $pdo = $cnx->seConnecter("../conf/mamzelle.ini");
-$dp = filter_input(INPUT_POST,"user_mdp");
-//$Cryptmdp = PASSWORD_BCRYPT($Mdp);
+$mdp = filter_input(INPUT_POST, "user_mdp");
+$Cryptmdp = crypt($mdp, "123456");
 //    on créé un nouveau objet client vierge
 $client = new Client();
 $client->setNom(filter_input(INPUT_POST, "user_nom"));
@@ -28,11 +28,11 @@ $client->setMdp($Cryptmdp);
 $client->setAdresse(filter_input(INPUT_POST, "user_adresse"));
 $client->setTel(filter_input(INPUT_POST, "user_tel"));
 $client->setDateInscription(date("Y-m-d"));
-$client->setIdVille(filter_input(INPUT_POST,"id_ville"));
+$client->setIdVille(filter_input(INPUT_POST, "id_ville"));
 $verifMail = filter_input(INPUT_POST, "verif_mail");
 $verifMdp = filter_input(INPUT_POST, "verif_mdp");
 
-    $dao = new ClientDAO($pdo);
-    $affected = $dao->insertClient($client);
-    echo json_encode($affected);
-    
+$dao = new ClientDAO($pdo);
+$affected = $dao->insertClient($client);
+
+echo json_encode($affected);
