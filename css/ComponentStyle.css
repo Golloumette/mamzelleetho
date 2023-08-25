@@ -1,0 +1,9 @@
+.linkButton {
+  background-color: #366464;
+  color: white;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10%;
+}

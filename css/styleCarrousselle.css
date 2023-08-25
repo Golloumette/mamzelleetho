@@ -1,0 +1,29 @@
+h5{ 
+    color: black;
+} 
+
+img{
+
+border-color: black;
+border: 5px;
+border-style:solid;
+margin-left: auto ;
+margin-right: auto ;
+margin-bottom: auto ;
+margin-top:2vh;
+
+}
+
+img.d-block{
+    
+
+}
+
+.carousel{
+    height:500px;
+
+}
+.carousel img{
+    
+    height:450px;
+}
