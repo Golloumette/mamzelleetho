@@ -1,0 +1,11 @@
+#navBar {
+    font-size:24px;
+
+}
+#navBar .navbar-nav  .nav-link.active {
+        color:#f8f9fa;
+}
+
+#navBar button{
+    color:white;
+}

@@ -1,7 +1,6 @@
 /*
  * Inscription.js
  */
-
 function init() {
   document.getElementById("refVille").addEventListener("click", listeVille);
   document.getElementById("btValider").addEventListener(
@@ -13,12 +12,10 @@ function init() {
     } /// corps de la fonction anonyme
   ); /// addeventListener
 } /// init
-
 function listeVille() {
   // Création d'un objet JSON
   let cp = document.getElementById("user_cp").value;
   let params = { cp: cp };
-
   let searchParams = new URLSearchParams(params).toString();
   const URL = `http://localhost/ProjetMamzelleOuiOui/controllers/InscriptionSelectCpCTRL.php?${searchParams}`;
   fetch(URL)
@@ -28,7 +25,6 @@ function listeVille() {
     .then(
       (result) => {
         // Tableau ordinal d’objets JSON
-
         for (let i = 0; i < result.length; i++) {
           let option = document.createElement("option");
           option.value = result[i].id_ville;
@@ -43,7 +39,6 @@ function listeVille() {
       }
     );
 }
-
 function valider() {
   let formElement = document.getElementById("formInsertClient");
   let formaData = new FormData(formElement);
@@ -59,7 +54,6 @@ function valider() {
       (result) => {
         // Un objet JSON
         console.log("result", result);
-
         if (result === 1) {
           document.getElementById("lblMessage").innerHTML = "Insertion réussie";
           window.location.replace(
@@ -67,8 +61,7 @@ function valider() {
           );
         } else {
           // erreur : duplicate key ...
-          document.getElementById("lblMessage").innerHTML =
-            "Insertion non réussie";
+          document.getElementById("lblMessage").innerHTML = result;
         }
       },
       (error) => {
@@ -78,5 +71,4 @@ function valider() {
       }
     );
 } ///fin fonction valider
-
 window.onload = init;

@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/ComponentStyle.css">
     <title>Mam'Zelle Etho</title>
 </head>
-
 <body>
     <header>
         <?php
-        include '../views/partials/header.php';
+        include '../views/partials/headerCarroussel.php';
         ?>
     </header>
     <nav>
@@ -24,7 +24,7 @@
     <section>
         <br>
         <div class="container">
-            <form method="post" id="formInsertClient" action="../controllers/InscriptionAddCTRL2.php">
+            <form method="post" id="formInsertClient" action="../controllers/InscriptionCTRL.php">
                 <fieldset>
                     <legend>Inscription</legend>
                     <br>
@@ -152,34 +152,24 @@
                     </div>
             </form>
             <br>
-
-
             <br>
             <br>
             <div>
                 <button id=btValider>Valider</button>
-                <!-- <input type="submit" value="Valider" name="btValider"> -->
+                <label id="lblbMessage">message</label>
             </div>
             </fieldset>
         </div>
         <?php
         if (isset($message)) {
-            echo $message;
-        }
-        ?>
+            echo $message;} ?>
         </form>
-        <label id="lblMessage">LblbMessage ici</label>
     </section>
-
     <footer>
         <?php
-        include '../views/partials/footer.php';
-
-        ?>
-
+        include '../views/partials/footer.php';?>
     </footer>
     <script type="module" src="../js/Inscription.js"></script>
     <script src="../js/ControleER.js"></script>
 </body>
-
 </html>

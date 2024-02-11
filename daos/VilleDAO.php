@@ -1,7 +1,6 @@
 
 <?php
 
-
 /**
  *
  * @param PDO $pdo
@@ -23,13 +22,13 @@ function insert(PDO $pdo, array $tAttributesValues): int {
         $statement->bindValue(5, $tAttributesValues["nom_commune"]);
         $statement->bindValue(6, $tAttributesValues["code_departement"]);
         $statement->bindValue(7, $tAttributesValues["nom_departement"]);
-       
-        
+
+
 
         $statement->execute();
         $affected = $statement->rowcount();
     } catch (PDOException $e) {
-        echo $e->getMessage(); 
+        echo $e->getMessage();
         $affected = -1;
     }
     return $affected;
@@ -41,15 +40,11 @@ function insert(PDO $pdo, array $tAttributesValues): int {
  * @return array
  */
 function selectAll(PDO $pdo): array {
-    /*
-     * Renvoie un tableau ordinal de tableaux associatifs
-     */
     $list = array();
     try {
         $sql="SELECT * FROM ville" ;
         $cursor = $pdo->query($sql);
         // nouvelle requete avec jointure
-       
         // Renvoie un tableau ordinal de tableaux associatifs
     $list = $cursor->fetchAll(PDO::FETCH_ASSOC);
     } catch (PDOException $e) {
@@ -116,7 +111,7 @@ function update(PDO $pdo,string $id,array $tAttributesValues ): int {
     try {
         $sql ="UPDATE ville SET code_commune_INSEE=?,code_postal=?,latitude=?,
         longitude=?,nom_commune=?,code_departement=?,nom_departement=? WHERE id_ville=?";
-        
+
         $statement = $pdo->prepare($sql);
         $statement->bindValue(1, $tAttributesValues["code_commune_INSEE"]);
         $statement->bindValue(2, $tAttributesValues["code_postal"]);
@@ -126,8 +121,8 @@ function update(PDO $pdo,string $id,array $tAttributesValues ): int {
         $statement->bindValue(6, $tAttributesValues["code_departement"]);
         $statement->bindValue(7, $tAttributesValues["nom_departement"]);
         $statement ->bindValue(8,$id);
-        $statement ->execute(); 
-        $affected = $statement ->rowcount();   
+        $statement ->execute();
+        $affected = $statement ->rowcount();
         } catch (Exception $e) {
          echo $e->getTraceAsString();
          $affected = -1;

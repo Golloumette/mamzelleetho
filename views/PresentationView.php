@@ -13,7 +13,7 @@
 <body>
     <header>
         <?php
-        include './partials/header.php';
+        include './partials/headerCarroussel.php';
 
 
         ?>

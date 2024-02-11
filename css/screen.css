@@ -1,0 +1,33 @@
+/* Styles pour l'écran d'ordinateur */
+#imageDesktop {
+    display: block;
+}
+#imageMobile{
+    display: none;
+}
+
+/* Styles pour la tablette */
+@media only screen and (max-width: 768px) {
+    #imageDesktop {
+        display: none;
+    }
+
+    #imageTablet {
+        display: block;
+    }
+}
+
+/* Styles pour le téléphone */
+@media only screen and (max-width: 480px) {
+
+/* le carroussel disparait en mode mobile*/
+    #carouselExampleControls {
+        display: none;
+    }
+    #imageMobile {
+        display: block;
+        width: 100%;
+        height: auto;
+
+    }
+}

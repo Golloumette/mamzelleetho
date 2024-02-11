@@ -9,7 +9,7 @@
  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
      <link rel="stylesheet" href="../css/styleCarrousselle.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/screen.css">
 </head>
 <body>
     <div class="container">
@@ -20,21 +20,18 @@
       <img src="../images/chevalCarroussel2.jpg" class="d-block" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Amour</h5>
-        <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="../images/chevalCarroussel3.jpg" class="d-block" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Famille</h5>
-        <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="../images/chevalCarroussel1.jpg" class="d-block" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Complicité</h5>
-        <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
   </div>
@@ -47,6 +44,7 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+        <img id="imageMobile" src="../images/logo.jpg" alt="logo pour mobile"
     </div>
 </body>
 </html>

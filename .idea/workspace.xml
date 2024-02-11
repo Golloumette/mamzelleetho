@@ -5,11 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="750dfcbc-30f9-4d99-a894-cf91754d2a09" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/css/navBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/screen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/InscriptionAddCTRL2.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/InscriptionAddCTRL2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/InscriptionAddCTRL2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/InscriptionCTRL.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/InscriptionCTRL.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/InscriptionSelectCpCTRL.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/InscriptionSelectCpCTRL.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styleCarrousselle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styleCarrousselle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daos/ClientDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/daos/ClientDAO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daos/VilleDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/daos/VilleDAO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daos/VilleDaoObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/daos/VilleDaoObject.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/Inscription.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Inscription.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Client.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/AuthentificationView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/AuthentificationView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/ClientView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/ClientView.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/InscriptionView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/InscriptionView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/IntervenantInsert.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/IntervenantInsert.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/ListeIntervenant.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/ListeIntervenant.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/MonCompteView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/MonCompteView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/MotDePasseOublieView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/MotDePasseOublieView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Panier.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/Panier.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/PresentationView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/PresentationView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/PrestationView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/PrestationView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/UpdatePasswordView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/UpdatePasswordView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/headerCarroussel.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/headerCarroussel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/headerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/nav.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +42,11 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe" />
@@ -28,20 +55,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/ProjetMamzelleOuiOui&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/xampp/htdocs/ProjetMamzelleOuiOui/images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ProjetMamzelleOuiOui\images" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="test.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/controllers/test.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.test.php" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,6 +103,23 @@
       <workItem from="1692888719759" duration="446000" />
       <workItem from="1692959602079" duration="602000" />
       <workItem from="1692971079260" duration="18000" />
+      <workItem from="1693213348600" duration="1866000" />
+      <workItem from="1693293484419" duration="1231000" />
+      <workItem from="1693310943588" duration="12000" />
+      <workItem from="1695730542744" duration="252000" />
+      <workItem from="1695808786702" duration="155000" />
+      <workItem from="1696667317604" duration="2395000" />
+      <workItem from="1696688699150" duration="3059000" />
+      <workItem from="1696923931989" duration="72000" />
+      <workItem from="1696927555105" duration="593000" />
+      <workItem from="1697383710795" duration="4658000" />
+      <workItem from="1697571467016" duration="1106000" />
+      <workItem from="1697619194255" duration="734000" />
+      <workItem from="1697973661801" duration="2454000" />
+      <workItem from="1701614703524" duration="402000" />
+      <workItem from="1706120254759" duration="1175000" />
+      <workItem from="1706210675582" duration="995000" />
+      <workItem from="1707658676262" duration="13598000" />
     </task>
     <servers />
   </component>
