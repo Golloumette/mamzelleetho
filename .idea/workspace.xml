@@ -4,33 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="750dfcbc-30f9-4d99-a894-cf91754d2a09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css/navBar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/screen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo.jpg" afterDir="false" />
+    <list default="true" id="750dfcbc-30f9-4d99-a894-cf91754d2a09" name="Changes" comment="responsible only header ++">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6e513acc-f00c-4910-b847-a8f142e2ce4e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6e513acc-f00c-4910-b847-a8f142e2ce4e.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/InscriptionAddCTRL2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/InscriptionCTRL.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/InscriptionCTRL.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/InscriptionSelectCpCTRL.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/InscriptionSelectCpCTRL.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styleCarrousselle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styleCarrousselle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daos/ClientDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/daos/ClientDAO.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daos/VilleDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/daos/VilleDAO.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daos/VilleDaoObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/daos/VilleDaoObject.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/Inscription.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Inscription.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Client.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/mamzelle.ini" beforeDir="false" afterPath="$PROJECT_DIR$/conf/mamzelle.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/ComponentStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ComponentStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/navBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styleinscription2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/ville.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/ville.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/ville2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/villes.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/daos/VilleInsertCsvToBD.php" beforeDir="false" afterPath="$PROJECT_DIR$/daos/VilleInsertCsvToBD.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/AccueilView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/AccueilView.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/AuthentificationView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/AuthentificationView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/ClientView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/ClientView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/InscriptionView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/InscriptionView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/IntervenantInsert.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/IntervenantInsert.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/ListeIntervenant.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/ListeIntervenant.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/MonCompteView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/MonCompteView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/MotDePasseOublieView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/MotDePasseOublieView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/Panier.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/Panier.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/PresentationView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/PresentationView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/PrestationView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/PrestationView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/UpdatePasswordView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/UpdatePasswordView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/headerCarroussel.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/headerCarroussel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/headerTest.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/views/partials/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/nav.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,25 +41,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/xampp/htdocs/ProjetMamzelleOuiOui/images",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/ProjetMamzelleOuiOui/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\ProjetMamzelleOuiOui\images" />
@@ -119,11 +105,34 @@
       <workItem from="1701614703524" duration="402000" />
       <workItem from="1706120254759" duration="1175000" />
       <workItem from="1706210675582" duration="995000" />
-      <workItem from="1707658676262" duration="13598000" />
+      <workItem from="1707658676262" duration="13672000" />
+      <workItem from="1709819177338" duration="1507000" />
+      <workItem from="1710251819889" duration="4971000" />
+      <workItem from="1712688309511" duration="522000" />
     </task>
+    <task id="LOCAL-00001" summary="responsible only header">
+      <created>1707685988619</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707685988619</updated>
+    </task>
+    <task id="LOCAL-00002" summary="responsible only header">
+      <created>1707686009262</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707686009262</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="responsible only header" />
+    <MESSAGE value="responsible only header ++" />
+    <option name="LAST_COMMIT_MESSAGE" value="responsible only header ++" />
   </component>
 </project>

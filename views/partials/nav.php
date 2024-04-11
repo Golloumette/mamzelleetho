@@ -2,10 +2,11 @@
 <html lang="fr">
 
 <head>
+  <title>Nav</title>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/navBar.css">
+  <link rel="stylesheet" href="../../css/navBar.css">
 </head>
 
 <body>
@@ -18,7 +19,7 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link active" href="../controllers/AccueilCTRL.php">Accueil</a>
+            <a class="nav-link active" href="../../controllers/AccueilCTRL.php">Accueil</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="../views/InscriptionView.php">Inscription</a>
@@ -35,10 +36,9 @@
           <li class="nav-item">
             <a class="nav-link active" href="../controllers/PrestationCTRL.php">Prestation</a>
           </li>
+        </ul>
           <button type="submit" class="btn btn-outline-white btn-sm nav-bar-right" name="deconnexion">Déconnexion </button>
 
-
-        </ul>
       </div>
     </nav>
   </div>

@@ -7,3 +7,16 @@
   display: inline-block;
   border-radius: 10%;
 }
+body{
+  font-family: Verdana, sans-serif;
+}
+h1,h2,h3, p{
+  font-family: Verdana, sans-serif;
+}
+h2,h5{
+  color: #213d3d;
+}
+p{
+  font-size: 1.5rem;
+  color: #514014;
+}

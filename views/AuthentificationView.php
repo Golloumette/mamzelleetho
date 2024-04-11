@@ -32,7 +32,7 @@
                     <legend>Authentification</legend>
                     <div class="row">
                         <div class="col-2">
-                            <label for="pseudo">Pseudo : </label>
+                            <label for="pseudo"> Pseudo : </label>
                         </div>
                         <div class="col-3">
                             <input type="text" name="pseudo" id="pseudo" placeholder="Identifiant?">

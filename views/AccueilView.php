@@ -28,9 +28,7 @@
                 <h2>Bienvenue sur le site de Mamzelle Etho </h2>
                 <p>Si vous êtes ici c'est parce que vous avez une vision plus éthologique de l'équitation ou que vous avez envie de décrouvrir ce qu'est l'équitation éthologique</p>
             </div>
-            <p>
-            <h3>L'éthologie équine c'est quoi ?</h3>
-            </p>
+            <h2>Qu'est ce que l'éthologie équine ?</h2>
             <p>L'éthologie équine est la branche de l'éthologie, science du comportement, qui étudie les chevaux, aussi bien en ce qui concerne le
                 comportement en milieu naturel que les relations intra-spécifiques (entre chevaux) et inter-spécifiques (avec les autres espèces), parfois en milieu non-naturel.</p>
             <div class="row">
@@ -39,7 +37,7 @@
                         <img src="../images/anneso.jpg" class="card-img-top" alt="presentation">
                         <div class="card-body">
                             <h5 class="card-title">Qui suis je ?</h5>
-                            <p class="card-text">Ma présentation et mon parcours.</p>
+                            <p class="card-text">Ma présentation et mon parcours</p>
                             <a class="linkButton" href="../views/PresentationView.php" class="btn btn-primary">Aller voir</a>
                         </div>
                     </div>
