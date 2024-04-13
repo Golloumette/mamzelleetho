@@ -48,7 +48,7 @@
                     <label for="afficherMdp">Afficher le mot de passe</label>
                     <input type="checkbox" name="afficherMdp"  id="afficherMdp"><br>
                     <label for="memory">Se souvenir de moi</label>
-                    <input type="checkbox" name="memory"><br>
+                    <input type="checkbox" name="memory" id="memory"><br>
                     
                     <input type="reset" value="Réinitialiser">
 
