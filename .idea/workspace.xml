@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="750dfcbc-30f9-4d99-a894-cf91754d2a09" name="Changes" comment="responsible only header ++">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="750dfcbc-30f9-4d99-a894-cf91754d2a09" name="Changes" comment="add files git ignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/AuthentificationView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/AuthentificationView.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +98,7 @@
       <workItem from="1709819177338" duration="1507000" />
       <workItem from="1710251819889" duration="4971000" />
       <workItem from="1712688309511" duration="522000" />
-      <workItem from="1712864085149" duration="751000" />
+      <workItem from="1712864085149" duration="1733000" />
     </task>
     <task id="LOCAL-00001" summary="responsible only header">
       <created>1707685988619</created>
@@ -122,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712864453382</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add files git ignore">
+      <created>1712865147634</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712865147634</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +137,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="responsible only header" />
     <MESSAGE value="responsible only header ++" />
-    <option name="LAST_COMMIT_MESSAGE" value="responsible only header ++" />
+    <MESSAGE value="add files git ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add files git ignore" />
   </component>
 </project>
