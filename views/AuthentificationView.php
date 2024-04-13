@@ -4,9 +4,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <title></title>
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="styleAuthentification.css">
+    <title>Authentification</title>
+    <link rel="stylesheet" href="../css/StyleAuthentification.css">
 </head>
 
 <body>
@@ -46,9 +45,9 @@
                             <input type="password" name="mdp"  id="mdp" placeholder="Mot de passe ?">
                         </div>
                     </div><br>
-                    <label>Afficher le mot de passe</label>
+                    <label for="afficherMdp">Afficher le mot de passe</label>
                     <input type="checkbox" name="afficherMdp"  id="afficherMdp"><br>
-                    <label>Se souvenir de moi</label>
+                    <label for="memory">Se souvenir de moi</label>
                     <input type="checkbox" name="memory"><br>
                     
                     <input type="reset" value="Réinitialiser">
@@ -74,12 +73,7 @@
             </div>
         </div>
         <br><br>
-
-       
         <br><br>
-
-       
-        </label>
         <?php
         ?>
     </section>
