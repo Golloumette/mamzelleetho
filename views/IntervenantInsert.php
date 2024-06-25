@@ -15,19 +15,13 @@
     <header>
         <?php
         include '../views/partials/headerCarroussel.php';
-        
-
         ?>
-
-
     </header>
     <nav>
         <?php
         include '../views/partials/nav.php';
-
         ?>
     </nav>
-
     <section>
     <br>
         <div class="container">
@@ -42,7 +36,6 @@
                         <div class="col-3">
                             <input type="text" id="nom" name="nom" value="booth">
                         </div>
-                        
                     </div>
                     <br>
                     <div class="row">
@@ -113,8 +106,6 @@
                         </div>
                     </div>
                     <br>
-
-
                     <div class="row">
                         <div class="col-2">
                             <label for="adresse">Ajouter une photo de l'intervenant :</label>
@@ -135,21 +126,11 @@
             echo $message;
         }
         ?>
-        </form>
-        
-       
-
-    
-
     </section>
-
     <footer>
         <?php
         include '../views/partials/footer.php';
-
         ?>
-
     </footer>
 </body>
-
 </html>

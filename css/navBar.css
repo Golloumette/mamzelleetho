@@ -1,11 +1,20 @@
+/* Styles pour le téléphone */
+@media only screen and (max-width: 430px) {
+    .nav-text-localisation{
+        background-color: white;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 5px 10px;
+        font-weight: bold;
+    }
+}
+/* Styles généraux Barre de Navigation*/
 #navBar {
     font-size:1.5rem;
-
 }
 #navBar .navbar-nav  .nav-link.active {
         color:#f8f9fa;
 }
-
 #navBar button{
     color:white;
 }

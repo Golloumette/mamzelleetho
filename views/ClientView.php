@@ -50,8 +50,6 @@
                     ?>
                 </select>
                 <input type="submit" value="valider" name="btSelectionner">
-
-                </select>
                 <?php
                 if (isset($messageMaj)) {
                     echo $messageMaj;

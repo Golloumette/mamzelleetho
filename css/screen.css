@@ -1,26 +1,6 @@
-/* Styles pour l'écran d'ordinateur */
-#imageDesktop {
-    display: block;
-}
-#imageMobile{
-    display: none;
-}
-
-/* Styles pour la tablette */
-@media only screen and (max-width: 768px) {
-    #imageDesktop {
-        display: none;
-    }
-
-    #imageTablet {
-        display: block;
-    }
-}
-
 /* Styles pour le téléphone */
-@media only screen and (max-width: 480px) {
-
-/* le carroussel disparait en mode mobile*/
+@media only screen and (max-width: 430px) {
+    /* le carroussel disparait en mode mobile*/
     #carouselExampleControls {
         display: none;
     }
@@ -28,6 +8,109 @@
         display: block;
         width: 100%;
         height: auto;
+        margin-top: 3px;
+    }
+    /* style barre de navigation */
+    .nav-text-localisation {
+        display: block;
+        margin: 0 auto;
+    }
+    .navbar-nav {
+        flex: 1;
+        justify-content: space-around;
+    }
+    .navbar-toggler {
+        margin-right: 4px;
+    }
+    .nav-bar-right {
+        margin-left: auto;
+    }
+    /* style du body*/
+    .container-card {
+        display: none;
+    }
+    p {
+        overflow: auto;
+    }
+    .nav-item {
+        margin-left: 3px;
+    }
+    .vignette-phone {
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap; /* les cards peuvent aller sur plusieurs lignes*/
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    .square {
+        height: 100px;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        border-radius: 10px;
+        font-size: 16px;
+        text-align: center;
+        border: solid 2px;
+        margin: 5px;
+        width: 45%;
 
     }
+   a{
+        text-decoration: none; !important;
+        color:black; !important;
+    }
 }
+/*fin paramètre telephone*/
+/* Styles pour la tablette */
+@media only screen and (min-width: 431px) and(max-width: 768px) {
+    #imageDesktop {
+        display: none;
+    }
+    #imageTablet {
+        display: block;
+    }
+    .vignette-phone{
+        display: none;
+    }
+    .container-card {
+        display: inline-flex;
+        justify-content: space-around;
+    }
+} /*fin paramètre tablette*/
+/* Styles pour l'écran d'ordinateur */
+@media only screen and (min-width: 769px) {
+    #imageDesktop {
+        display: block;
+    }
+    #imageMobile {
+        display: none;
+    }
+    .container-card {
+        display: inline-flex;
+        justify-content: space-around;
+    }
+    .nav-text-localisation {
+        display: none; /* Masquer par défaut */
+        background-color: white;
+        color: #366464;
+        padding: 5px 10px;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .card {
+        margin: 30px;
+    }
+    .vignette-phone {
+        display: none;
+    }
+    .square {
+        display: none;
+    }
+}
+
+

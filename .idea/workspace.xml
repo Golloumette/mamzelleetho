@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="750dfcbc-30f9-4d99-a894-cf91754d2a09" name="Changes" comment="add files git ignore">
+      <change afterPath="$PROJECT_DIR$/css/InscriptionStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/NavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/mamzelle.ini" beforeDir="false" afterPath="$PROJECT_DIR$/conf/mamzelle.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/TestVerification.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/ComponentStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ComponentStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/navBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/screen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styleCarrousselle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styleCarrousselle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styleheader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/AccueilView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/AccueilView.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/AuthentificationView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/AuthentificationView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/ClientView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/ClientView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/InscriptionView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/InscriptionView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/IntervenantInsert.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/IntervenantInsert.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/MonCompteView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/MonCompteView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/PresentationView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/PresentationView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/PrestationView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/PrestationView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/catalogue.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/catalogue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/modele.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/modele.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/footer3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/headerCarroussel.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/headerCarroussel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/nav.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +44,13 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -23,7 +59,14 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/views/MonCompteView.php" root0="SKIP_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/views/partials/nav.php" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2SKWaMAV8jeL9kwXn19lDQszM2Z" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,6 +82,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -53,12 +97,16 @@
       <recent name="C:\xampp\htdocs\ProjetMamzelleOuiOui\images" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Script.AccueilView.php">
+    <configuration name="AccueilView.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/views/AccueilView.php">
+      <method v="2" />
+    </configuration>
     <configuration name="test.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/controllers/test.php">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.AccueilView.php" />
         <item itemvalue="PHP Script.test.php" />
       </list>
     </recent_temporary>
@@ -98,7 +146,15 @@
       <workItem from="1710251819889" duration="4971000" />
       <workItem from="1712688309511" duration="522000" />
       <workItem from="1712864085149" duration="1733000" />
-      <workItem from="1713015355225" duration="458000" />
+      <workItem from="1713015355225" duration="10480000" />
+      <workItem from="1716036562246" duration="5000" />
+      <workItem from="1718701809847" duration="15386000" />
+      <workItem from="1718807802607" duration="2294000" />
+      <workItem from="1718810278569" duration="598000" />
+      <workItem from="1718879695267" duration="9594000" />
+      <workItem from="1718962724905" duration="3314000" />
+      <workItem from="1719142460618" duration="6273000" />
+      <workItem from="1719235538557" duration="21407000" />
     </task>
     <task id="LOCAL-00001" summary="responsible only header">
       <created>1707685988619</created>
@@ -135,11 +191,35 @@
       <option name="project" value="LOCAL" />
       <updated>1713015437173</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add files git ignore">
+      <created>1713015826135</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713015826135</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add files git ignore">
+      <created>1713015867627</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713015867627</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add files git ignore">
+      <created>1713015898565</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713015898565</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="responsible only header" />

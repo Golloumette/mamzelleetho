@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-
 <html lang="fr">>
-
 <head>
     <meta charset="UTF-8">
     <title>Authentification</title>
     <link rel="stylesheet" href="../css/StyleAuthentification.css">
+    <link rel="icon" href="../images/chevalFav.PNG">
+    <link rel="stylesheet" href="../css/screen.css?v=1.0">
+    <link rel="stylesheet" href="../css/ComponentStyle.css">
 </head>
-
 <body>
     <header>
         <?php
@@ -54,9 +54,7 @@
 
                     <input type="submit" value="Valider" id="btSubmit">
                     <a href="../views/MotDePasseOublieView.php">Mot de passe oublié </a><br>
-                   
                 </fieldset>
-
             </form>
             <label id="lblMessage"></label>
             </div>
@@ -66,9 +64,7 @@
         if (isset($message)) {
            ?> <img src="../images/cheval_interdit.jpg" alt="" width="200px"> <br> <?php
             echo $message;
-        }
-        ?>
-        
+        }?>
             </div>
             </div>
         </div>
@@ -77,13 +73,7 @@
         <?php
         ?>
     </section>
-
-
-
     <hr />
-
-
-
     <footer>
         <?php
         include "../views/partials/footer.php";
