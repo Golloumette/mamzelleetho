@@ -2,7 +2,7 @@
 
 
 //  lecture du fichier
-$contents = file_get_contents("../csv/ville2.csv");
+$contents = file_get_contents("../csv/ville.csv");
 $message="";
 
 

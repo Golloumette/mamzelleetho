@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="750dfcbc-30f9-4d99-a894-cf91754d2a09" name="Changes" comment="" />
+    <list default="true" id="750dfcbc-30f9-4d99-a894-cf91754d2a09" name="Changes" comment="add files git ignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +16,29 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/views/MonCompteView.php" root0="SKIP_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/views/partials/nav.php" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2SKWaMAV8jeL9kwXn19lDQszM2Z" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,15 +49,40 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/ProjetMamzelleOuiOui&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/ProjetMamzelleOuiOui/images&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ProjetMamzelleOuiOui\images" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Script.AccueilView.php">
+    <configuration name="AccueilView.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/views/AccueilView.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/controllers/test.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.AccueilView.php" />
+        <item itemvalue="PHP Script.test.php" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,10 +95,127 @@
       <workItem from="1691141121559" duration="6463000" />
       <workItem from="1691404313646" duration="18000" />
       <workItem from="1692888719759" duration="446000" />
+      <workItem from="1692959602079" duration="602000" />
+      <workItem from="1692971079260" duration="18000" />
+      <workItem from="1693213348600" duration="1866000" />
+      <workItem from="1693293484419" duration="1231000" />
+      <workItem from="1693310943588" duration="12000" />
+      <workItem from="1695730542744" duration="252000" />
+      <workItem from="1695808786702" duration="155000" />
+      <workItem from="1696667317604" duration="2395000" />
+      <workItem from="1696688699150" duration="3059000" />
+      <workItem from="1696923931989" duration="72000" />
+      <workItem from="1696927555105" duration="593000" />
+      <workItem from="1697383710795" duration="4658000" />
+      <workItem from="1697571467016" duration="1106000" />
+      <workItem from="1697619194255" duration="734000" />
+      <workItem from="1697973661801" duration="2454000" />
+      <workItem from="1701614703524" duration="402000" />
+      <workItem from="1706120254759" duration="1175000" />
+      <workItem from="1706210675582" duration="995000" />
+      <workItem from="1707658676262" duration="13672000" />
+      <workItem from="1709819177338" duration="1507000" />
+      <workItem from="1710251819889" duration="4971000" />
+      <workItem from="1712688309511" duration="522000" />
+      <workItem from="1712864085149" duration="1733000" />
+      <workItem from="1713015355225" duration="10480000" />
+      <workItem from="1716036562246" duration="5000" />
+      <workItem from="1718701809847" duration="15386000" />
+      <workItem from="1718807802607" duration="2294000" />
+      <workItem from="1718810278569" duration="598000" />
+      <workItem from="1718879695267" duration="9594000" />
+      <workItem from="1718962724905" duration="3314000" />
+      <workItem from="1719142460618" duration="6273000" />
+      <workItem from="1719235538557" duration="21407000" />
+      <workItem from="1719315564619" duration="834000" />
     </task>
+    <task id="LOCAL-00001" summary="responsible only header">
+      <created>1707685988619</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707685988619</updated>
+    </task>
+    <task id="LOCAL-00002" summary="responsible only header">
+      <created>1707686009262</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707686009262</updated>
+    </task>
+    <task id="LOCAL-00003" summary="responsible only header ++">
+      <created>1712864453382</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712864453382</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add files git ignore">
+      <created>1712865147634</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712865147634</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add files git ignore">
+      <created>1713015437173</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713015437173</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add files git ignore">
+      <created>1713015826135</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713015826135</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add files git ignore">
+      <created>1713015867627</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713015867627</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add files git ignore">
+      <created>1713015898565</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713015898565</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add files git ignore">
+      <created>1719315624054</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719315624054</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="responsible only header" />
+    <MESSAGE value="responsible only header ++" />
+    <MESSAGE value="add files git ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add files git ignore" />
   </component>
 </project>

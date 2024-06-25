@@ -12,7 +12,7 @@
 <body>
     <header>
         <?php
-        include '../views/partials/header.php';
+        include '../views/partials/headerCarroussel.php';
 
         ?>
     </header>

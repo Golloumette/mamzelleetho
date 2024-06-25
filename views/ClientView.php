@@ -14,7 +14,7 @@
 <body>
     <header>
         <?php
-        include '../views/partials/header.php';
+        include '../views/partials/headerCarroussel.php';
         ?>
     </header>
     <nav>
@@ -50,8 +50,6 @@
                     ?>
                 </select>
                 <input type="submit" value="valider" name="btSelectionner">
-
-                </select>
                 <?php
                 if (isset($messageMaj)) {
                     echo $messageMaj;

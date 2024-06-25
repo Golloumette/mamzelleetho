@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="fr">>
 <head>
     <meta charset="UTF-8">
-    <title></title>
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="styleAuthentification.css">
+    <title>Authentification</title>
+    <link rel="stylesheet" href="../css/StyleAuthentification.css">
+    <link rel="icon" href="../images/chevalFav.PNG">
+    <link rel="stylesheet" href="../css/screen.css?v=1.0">
+    <link rel="stylesheet" href="../css/ComponentStyle.css">
 </head>
-
 <body>
     <header>
         <?php
-        include '../views/partials/header.php';
+        include '../views/partials/headerCarroussel.php';
         ?>
     </header>
     <hr />
@@ -32,7 +31,7 @@
                     <legend>Authentification</legend>
                     <div class="row">
                         <div class="col-2">
-                            <label for="pseudo">Pseudo : </label>
+                            <label for="pseudo"> Pseudo : </label>
                         </div>
                         <div class="col-3">
                             <input type="text" name="pseudo" id="pseudo" placeholder="Identifiant?">
@@ -46,18 +45,16 @@
                             <input type="password" name="mdp"  id="mdp" placeholder="Mot de passe ?">
                         </div>
                     </div><br>
-                    <label>Afficher le mot de passe</label>
+                    <label for="afficherMdp">Afficher le mot de passe</label>
                     <input type="checkbox" name="afficherMdp"  id="afficherMdp"><br>
-                    <label>Se souvenir de moi</label>
-                    <input type="checkbox" name="memory"><br>
+                    <label for="memory">Se souvenir de moi</label>
+                    <input type="checkbox" name="memory" id="memory"><br>
                     
                     <input type="reset" value="Réinitialiser">
 
                     <input type="submit" value="Valider" id="btSubmit">
                     <a href="../views/MotDePasseOublieView.php">Mot de passe oublié </a><br>
-                   
                 </fieldset>
-
             </form>
             <label id="lblMessage"></label>
             </div>
@@ -67,29 +64,16 @@
         if (isset($message)) {
            ?> <img src="../images/cheval_interdit.jpg" alt="" width="200px"> <br> <?php
             echo $message;
-        }
-        ?>
-        
+        }?>
             </div>
             </div>
         </div>
         <br><br>
-
-       
         <br><br>
-
-       
-        </label>
         <?php
         ?>
     </section>
-
-
-
     <hr />
-
-
-
     <footer>
         <?php
         include "../views/partials/footer.php";
