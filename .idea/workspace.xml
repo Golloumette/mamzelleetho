@@ -7,7 +7,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="750dfcbc-30f9-4d99-a894-cf91754d2a09" name="Changes" comment="add files git ignore" />
+    <list default="true" id="750dfcbc-30f9-4d99-a894-cf91754d2a09" name="Changes" comment="add files git ignore">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6e513acc-f00c-4910-b847-a8f142e2ce4e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6e513acc-f00c-4910-b847-a8f142e2ce4e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/navBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/screen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/InscriptionView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/InscriptionView.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +134,10 @@
       <workItem from="1718962724905" duration="3314000" />
       <workItem from="1719142460618" duration="6273000" />
       <workItem from="1719235538557" duration="21407000" />
-      <workItem from="1719315564619" duration="834000" />
+      <workItem from="1719315564619" duration="5223000" />
+      <workItem from="1719333649930" duration="12000" />
+      <workItem from="1719333671046" duration="3208000" />
+      <workItem from="1719340190183" duration="596000" />
     </task>
     <task id="LOCAL-00001" summary="responsible only header">
       <created>1707685988619</created>
@@ -192,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719315624054</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add files git ignore">
+      <created>1719317615183</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719317615183</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,20 +1,63 @@
-/* Styles pour le téléphone */
-@media only screen and (max-width: 430px) {
-    .nav-text-localisation{
-        background-color: white;
-        padding: 10px;
-        border-radius: 5px;
-        margin: 5px 10px;
-        font-weight: bold;
-    }
+/*Style barre de navigation format mobile*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
 }
-/* Styles généraux Barre de Navigation*/
+ .nav-text-localisation {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left:45px;
+
+
+}
 #navBar {
-    font-size:1.5rem;
+    font-size: 1.5rem;
+
 }
-#navBar .navbar-nav  .nav-link.active {
-        color:#f8f9fa;
+.navbar-nav {
+    flex: 1;
+    justify-content: space-around;
 }
-#navBar button{
-    color:white;
+.navbar-toggler {
+    margin-right: 4px;
+}
+.nav-bar-right {
+    margin-left: auto;
+}
+.nav-item {
+    margin-left: 3px;
+}
+#navBar .navbar-nav .nav-link.active {
+    color: #f8f9fa;
+}
+/* Styles pour l'écran d'ordinateur */
+@media only screen and (min-width: 769px) {
+    /* Styles généraux Barre de Navigation*/
+    #navBar {
+        font-size: 1.5rem;
+
+    }
+
+    #navBar .navbar-nav .nav-link.active {
+        color: #f8f9fa;
+    }
+
+    #navBar button {
+        color: white;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-text-localisation {
+        display: none; /* Masquer par défaut */
+
+    }
 }

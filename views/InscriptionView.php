@@ -152,14 +152,16 @@
                             </select>
                         </div>
                     </div>
+                    <div>
+                        <button type="submit" id=btValider>Valider l'inscription</button>
+
+                    </div>
+                </fieldset>
             </form>
             <br>
             <br>
             <br>
-            <div>
-                <button id=btValider>Valider l'inscription</button>
 
-            </div>
         </div>
         <?php
         if (isset($message)) {
