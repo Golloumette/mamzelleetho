@@ -7,35 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="750dfcbc-30f9-4d99-a894-cf91754d2a09" name="Changes" comment="add files git ignore">
-      <change afterPath="$PROJECT_DIR$/css/InscriptionStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/mamzelle.ini" beforeDir="false" afterPath="$PROJECT_DIR$/conf/mamzelle.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/TestVerification.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/ComponentStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ComponentStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/navBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/screen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styleCarrousselle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styleCarrousselle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styleheader.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/AccueilView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/AccueilView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/AuthentificationView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/AuthentificationView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/ClientView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/ClientView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/InscriptionView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/InscriptionView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/IntervenantInsert.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/IntervenantInsert.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/MonCompteView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/MonCompteView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/PresentationView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/PresentationView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/PrestationView.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/PrestationView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/catalogue.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/catalogue.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/modele.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/modele.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/footer3.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/headerCarroussel.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/headerCarroussel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/nav.php" afterDir="false" />
-    </list>
+    <list default="true" id="750dfcbc-30f9-4d99-a894-cf91754d2a09" name="Changes" comment="add files git ignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,6 +127,7 @@
       <workItem from="1718962724905" duration="3314000" />
       <workItem from="1719142460618" duration="6273000" />
       <workItem from="1719235538557" duration="21407000" />
+      <workItem from="1719315564619" duration="834000" />
     </task>
     <task id="LOCAL-00001" summary="responsible only header">
       <created>1707685988619</created>
@@ -212,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713015898565</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add files git ignore">
+      <created>1719315624054</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719315624054</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +200,17 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="responsible only header" />
