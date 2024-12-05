@@ -27,7 +27,7 @@
             <h1>Qu'est ce que l'éthologie équine ?</h1>
             <p>L'éthologie équine est la branche de l'éthologie, science du comportement, qui étudie les chevaux, aussi bien en ce qui concerne le
                 comportement en milieu naturel que les relations intra-spécifiques (entre chevaux) et inter-spécifiques (avec les autres espèces), parfois en milieu non-naturel.</p>
-            <div class="container-card"
+            <div class="container-card">
             <div class="row">
                 <div class="col-4">
                     <div class="card" style="width: 18rem;">
